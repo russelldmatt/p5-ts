@@ -11,6 +11,10 @@
   "author": "Matt Russell",
   "license": "ISC",
   "dependencies": {
+    "p5": "^1.11.2",
     "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.6"
   }
 }
