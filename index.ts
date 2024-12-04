@@ -1,6 +1,6 @@
 import p5 from 'p5';
 
-let sketch = function (p) {
+let sketch = function (p: p5) {
   let x = 100;
   let y = 100;
 
@@ -10,7 +10,7 @@ let sketch = function (p) {
 
   p.draw = function () {
     p.background(0);
-    p.fill(255);
+    p.fill('white');
     p.rect(x, y, 50, 50);
   };
 };
